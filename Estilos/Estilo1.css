@@ -1,0 +1,103 @@
+h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+header, section, footer, aside, nav, article {
+    
+    margin-bottom: 3px;
+
+    
+}
+
+body{
+    text-align: center;
+}
+
+.agrupar{
+    background: #b2bec3;
+    width: 960px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
+    
+}
+
+header{
+    background: #00cec9;
+    padding: 20px;
+}
+
+.cabecera h1{
+    text-align: left;
+}
+
+.menu{
+    text-align: left;
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 12px verdana;
+
+    display: block;
+    display: inline-block;
+
+    border: 1px solid black;
+
+}
+
+.seccion1{
+    
+    margin: 20px;
+    width: 600px;
+
+    float: left;
+    
+}
+
+img{
+    width: 300px;
+}
+
+.columna{
+    width: 300px;
+    border: 1px solid black;
+    
+    float: left;
+    
+
+    margin: 20px 0;
+}
+
+.pie{
+    clear: both;
+    background: #636e72;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+article{
+    border: 1px solid black;
+    padding: 20px;
+
+    margin-bottom: 10px;
+
+    text-align: left;
+}
+article footer{
+    text-align: right;
+}
+
+article time{
+    color: #999;
+}
